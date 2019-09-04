@@ -49,4 +49,5 @@ def query_applause(query,
             result.votable.to_xml(table_file, tabledata_format="binary2")
         return result.to_table()
     else:
-        return Table.read(table_file, format="votable")
+        table = Table.read(table_file, format="votable")
+        return table
