@@ -3,7 +3,7 @@
 #
 
 # internal imports
-from . import tap
+from .. import tap
 
 # Standard library imports
 
